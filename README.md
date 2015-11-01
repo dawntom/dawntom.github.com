@@ -71,3 +71,30 @@ Feeling uninspired by the portfolio? Here's a list of cool portfolios I found af
 * <a href="http://nicoledominguez.com/portfolio/">http://nicoledominguez.com/portfolio/</a>
 * <a href="http://www.roxannecook.com/">http://www.roxannecook.com/</a>
 * <a href="http://www.84colors.com/portfolio.html">http://www.84colors.com/portfolio.html</a>
+C:\Users\Zixuan\Desktop> cd /Users/Zixuan/Desktop
+C:\Users\Zixuan\Desktop> cd /Users/Zixuan/Desktop
+C:\Users\Zixuan\Desktop> cd /Users/Zixuan/Desktop/web
+C:\Users\Zixuan\Desktop\web [master +1 ~1 -0 !]> ll
+ll : The term 'll' is not recognized as the name of a cmdlet, function, script file, or operable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ ll
++ ~~
+    + CategoryInfo          : ObjectNotFound: (ll:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+C:\Users\Zixuan\Desktop\web [master +1 ~1 -0 !]> git add --all
+C:\Users\Zixuan\Desktop\web [master +1 ~1 -0]> git commit -m "asdsad"
+[master b6db886] asdsad
+ 2 files changed, 76 insertions(+), 3 deletions(-)
+ create mode 100644 js/cc.js
+C:\Users\Zixuan\Desktop\web [master]> git push -u origin master
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.30 KiB | 0 bytes/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+To https://github.com/dawntom/frontend-nanodegree-mobile-portfolio.git
+   3735bff..b6db886  master -> master
+Branch master set up to track remote branch master from origin.
+C:\Users\Zixuan\Desktop\web [master]>
